@@ -1,0 +1,23 @@
+body{
+   background: #05010D;
+   overflow-x: hidden;
+   display: flex;
+   justify-content: center;
+   height: 14174.44px;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  scroll-behavior: smooth;
+}
+
+.content
+{
+  width: 100%;
+}
+html{
+   font-size: calc(100vw / 1920);
+}

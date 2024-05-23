@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/section.css">
+    <meta name="viewport" content="initial-scale=1, width=device-width">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,700;1,700&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" />
+    
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class = "content">
+        <div class="section_background_container">
+            <div class="section_background">
+            </div>
+        </div>
+        <header class="header">
+            <div class="header_container">
+                <div class="header_icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="110" height="29" viewBox="0 0 110 29" fill="none">
+                        <g clip-path="url(#clip0_3003_727)">
+                            <mask id="mask0_3003_727" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="110"
+                                height="29">
+                                <path d="M0.507812 0.73999H109.049V28.87H0.507812V0.73999Z" fill="white" />
+                            </mask>
+                            <g mask="url(#mask0_3003_727)">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M7.53906 18.8967V21.8316L0.507812 14.7991L1.97383 13.3329L7.53906 18.8956V18.8967ZM10.4734 21.8316H7.53906L14.5703 28.8641L16.0363 27.3979L10.4734 21.8316ZM27.1609 16.2678L28.6293 14.7991L14.5668 0.734131L13.102 2.20627L18.6648 7.77015H15.3039L11.4203 3.89407L9.9543 5.36034L12.3684 7.77601H10.6809V18.6928H21.5957V17.005L24.0109 19.4195L25.477 17.9544L21.5957 14.0701V10.7062L27.1609 16.2678ZM8.27266 7.03877L6.80078 8.50739L8.37578 10.0815L9.84297 8.61405L8.27266 7.03877ZM20.7602 19.5285L19.293 20.9971L20.8668 22.5724L22.3352 21.1038L20.7602 19.5285ZM5.12383 10.187L3.65547 11.6579L7.53906 15.5399V12.6026L5.125 10.1882L5.12383 10.187ZM16.7734 21.8375H13.8367L17.7191 25.7218L19.1875 24.2532L16.7734 21.8375Z"
+                                    fill="#FF6363" />
+                                <path
+                                    d="M107.133 21.8141C106.186 21.8141 105.446 21.5574 104.918 21.0417C104.389 20.5259 104.124 19.811 104.124 18.9026V13.2766H102.425V11.1704H104.133L104.438 8.35738H106.438V11.1704H109.048V13.2801H106.438V18.599C106.432 18.8888 106.54 19.1693 106.738 19.3808C106.84 19.4892 106.964 19.5743 107.101 19.6306C107.239 19.6868 107.387 19.7127 107.535 19.7067H109.047V21.8152H107.133V21.8141ZM96.9156 22.0133C95.6535 22.0133 94.6375 21.7121 93.8687 21.1108C93.1049 20.5132 92.5812 19.6608 92.3933 18.7092H94.9047C95.0136 19.0749 95.2574 19.3855 95.5867 19.5789C95.9898 19.8121 96.4504 19.9258 96.9156 19.9071C98.2551 19.9071 98.9277 19.532 98.9277 18.8088C98.9277 18.4478 98.7168 18.1712 98.2961 17.9814C97.8063 17.7724 97.2944 17.6194 96.7703 17.5254C96.1624 17.4094 95.5608 17.2623 94.9679 17.0847C94.363 16.906 93.8262 16.5485 93.4281 16.0591C93.0109 15.5587 92.7988 14.9023 92.7988 14.0889C92.7921 13.6605 92.8844 13.2365 93.0683 12.8496C93.2523 12.4627 93.523 12.1235 93.8594 11.8584C94.5695 11.2665 95.5539 10.97 96.8125 10.9711C98.0711 10.9711 99.0625 11.2524 99.8125 11.8139C100.549 12.3719 101.056 13.181 101.236 14.0877H98.7215C98.4543 13.4184 97.8191 13.0832 96.8183 13.0832C95.7437 13.0832 95.2093 13.4196 95.2093 14.0912C95.2109 14.2452 95.2537 14.3961 95.3332 14.528C95.4128 14.6599 95.5262 14.7681 95.6617 14.8413C96.0051 15.0523 96.3883 15.1883 96.7867 15.2457C97.2859 15.3301 97.7793 15.445 98.2633 15.5868C98.7672 15.731 99.2593 15.9068 99.7398 16.1154C100.207 16.3275 100.603 16.6721 100.878 17.1058C101.196 17.6157 101.355 18.2099 101.334 18.8112C101.344 19.2585 101.247 19.7018 101.051 20.1042C100.855 20.5066 100.567 20.8565 100.209 21.1249C99.4597 21.7156 98.3617 22.0121 96.9156 22.0133ZM89.4297 12.0342C88.6562 11.3392 87.5711 10.991 86.1801 10.991C85.0668 10.991 84.1351 11.2899 83.384 11.8889C82.6369 12.4709 82.1084 13.2883 81.884 14.2084H84.2582C84.3789 13.8603 84.6097 13.5603 84.9144 13.3551C85.2846 13.1058 85.7248 12.9814 86.1707 13C86.7295 12.969 87.2797 13.1475 87.714 13.5005C87.9053 13.6785 88.0549 13.8965 88.1521 14.1391C88.2494 14.3816 88.2918 14.6426 88.2765 14.9035V15.4145H85.5695C84.3144 15.4145 83.3312 15.7263 82.6234 16.3522C82.2824 16.6436 82.0103 17.0069 81.8265 17.4161C81.6427 17.8253 81.5519 18.2701 81.5605 18.7186C81.546 19.1633 81.6268 19.606 81.7974 20.017C81.968 20.428 82.2244 20.7977 82.5496 21.1014C83.2105 21.7273 84.0847 22.0391 85.1746 22.0391C85.8499 22.0549 86.5183 21.8996 87.1175 21.5879C87.5992 21.3534 88.007 20.9901 88.2953 20.5377H88.3926L88.5801 21.8504H90.5898V14.9117C90.591 13.6927 90.2043 12.7339 89.4297 12.0342ZM88.2871 17.7212C88.3011 18.0369 88.2454 18.3518 88.1239 18.6436C88.0024 18.9353 87.818 19.1966 87.584 19.409C87.1187 19.8227 86.4836 20.0302 85.6773 20.0302C85.0914 20.0302 84.6402 19.8965 84.3308 19.6316C84.1803 19.5096 84.0597 19.3546 83.9785 19.1786C83.8972 19.0027 83.8574 18.8104 83.8621 18.6166C83.8621 17.679 84.475 17.2136 85.6785 17.2136H88.2871V17.7212ZM75.5324 22.0368C74.009 22.0368 72.7926 21.5468 71.8797 20.5693C70.9703 19.5918 70.5109 18.2404 70.5109 16.5116C70.5109 14.7816 70.9679 13.436 71.875 12.4562C72.782 11.4775 74.0031 10.991 75.5324 10.991C76.7746 10.991 77.8058 11.3216 78.6226 11.9861C79.4248 12.6252 79.9963 13.5088 80.2504 14.5026H77.9476C77.7219 14.0621 77.3743 13.6957 76.9464 13.4469C76.5184 13.1982 76.028 13.0777 75.5336 13.0996C75.1585 13.0863 74.7853 13.1597 74.4432 13.3142C74.1011 13.4687 73.7993 13.7001 73.5613 13.9904C73.0621 14.587 72.8113 15.4274 72.8113 16.5104C72.8113 17.5946 73.0621 18.4361 73.5613 19.0327C73.7987 19.3238 74.1001 19.556 74.442 19.7113C74.7839 19.8667 75.1571 19.9409 75.5324 19.9282C76.0271 19.9491 76.5174 19.8277 76.9453 19.5784C77.3732 19.3291 77.7206 18.9624 77.9465 18.5217H80.2504C79.9961 19.5166 79.4242 20.4014 78.6215 21.0417C77.8082 21.7039 76.7781 22.0368 75.5324 22.0368ZM61.9492 25.8601L63.5558 21.8399L59.2398 11.195H61.7512L64.6644 18.728H64.7605L67.6785 11.195H70.1886L64.3586 25.8601H61.9492ZM57.0707 12.0342C56.2972 11.338 55.2133 10.991 53.8199 10.991C52.7078 10.991 51.7761 11.2899 51.0238 11.8889C50.28 12.4718 49.7555 13.2893 49.5355 14.2084H51.9074C52.0281 13.8603 52.2578 13.5603 52.5637 13.3551C52.9341 13.1064 53.3741 12.982 53.8199 13C54.4715 13 54.9871 13.1676 55.3621 13.5005C55.5537 13.6782 55.7036 13.8962 55.8009 14.1388C55.8981 14.3814 55.9404 14.6426 55.9246 14.9035V15.4145H53.2058C51.9566 15.4145 50.9746 15.7263 50.2609 16.3522C49.9193 16.6431 49.6465 17.0063 49.4623 17.4156C49.278 17.8248 49.187 18.2699 49.1957 18.7186C49.1827 19.1619 49.2643 19.6028 49.435 20.0121C49.6058 20.4213 49.8617 20.7895 50.1859 21.0921C50.8457 21.718 51.7211 22.0297 52.8109 22.0297C53.4855 22.0455 54.1531 21.8903 54.7515 21.5785C55.2343 21.3441 55.6422 20.9807 55.9304 20.5283H56.0265L56.2258 21.841H58.232V14.9023C58.232 13.6892 57.8453 12.7339 57.0719 12.0342H57.0707ZM55.9246 17.7212C55.9386 18.0369 55.8829 18.3518 55.7614 18.6436C55.6399 18.9353 55.4555 19.1966 55.2215 19.409C54.7574 19.8227 54.1199 20.0302 53.3136 20.0302C52.7277 20.0302 52.2765 19.8965 51.966 19.6316C51.8158 19.5093 51.6955 19.3543 51.6142 19.1784C51.533 19.0025 51.493 18.8103 51.4972 18.6166C51.5054 17.6836 52.1101 17.216 53.3136 17.2136H55.9246V17.7212ZM44.0453 16.5116C44.4039 16.4166 44.7496 16.2807 45.0765 16.106C45.4586 15.8974 45.816 15.6454 46.1418 15.3559C46.5355 14.9925 46.839 14.5436 47.0289 14.0432C47.2562 13.4548 47.3687 12.8289 47.3605 12.1983C47.3605 10.8586 46.9328 9.78615 46.0785 8.97975C45.223 8.17336 44.1097 7.77251 42.741 7.77602H36.9144V21.841H39.4258V16.6206H41.3301L44.9488 21.8375H47.7613L44.0465 16.5104L44.0453 16.5116ZM39.4258 14.3948V9.98775H42.5359C43.2484 9.98775 43.8109 10.1753 44.2234 10.5668C44.6359 10.9594 44.8457 11.495 44.8457 12.1913C44.8457 12.8875 44.6383 13.4313 44.2199 13.8193C43.7605 14.2178 43.1652 14.4253 42.5558 14.3948H39.4258Z"
+                                    fill="#E6E6E6" />
+                            </g>
+                        </g>
+                        <defs>
+                            <clipPath id="clip0_3003_727">
+                                <rect width="109" height="28.13" fill="white" transform="translate(0.5 0.73999)" />
+                            </clipPath>
+                        </defs>
+                    </svg>
+                </div>
+                <ul class="header_menu">
+                    <li class="header_menu"><a href="#">Store</a></li>
+                    <li class="header_menu"><a href="#">Developer</a></li>
+                    <li class="header_menu"><a href="#">Teams</a></li>
+                    <li class="header_menu">
+                        <a href="#">Pro</a>
+                        <div class="before_mask-group">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="36" height="15" viewBox="0 0 36 15" fill="none">
+                                <mask id="mask0_3003_717" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0"
+                                    width="36" height="15">
+                                    <rect x="0.880014" width="34.19" height="15" fill="black" />
+                                </mask>
+                                <g mask="url(#mask0_3003_717)">
+                                    <rect x="0.880014" width="34.19" height="15" rx="7.5" fill="url(#paint0_linear_3003_717)" />
+                                </g>
+                                <defs>
+                                    <linearGradient id="paint0_linear_3003_717" x1="0.105277" y1="4.21707" x2="35.8447"
+                                        y2="10.7829" gradientUnits="userSpaceOnUse">
+                                        <stop offset="0.0052" stop-color="#FF5B37" />
+                                        <stop offset="1" stop-color="#AB0052" />
+                                    </linearGradient>
+                                </defs>
+                            </svg>
+                            <text>New</text>
+                        </div>
+                    </li>
+                    <li class="header_menu"><a href="#">Changelog</a></li>
+                    <li class="header_menu"><a href="#">Pricing</a></li>
+                    <li class="header_menu"><a href="#">Blog</a></li>
+                </ul>
+                <div style="display: flex;">
+                    <li class="header_login"><a href="#">Log in</a></li>
+                    <div class="header_download_button">
+                        <a class="header_download" href="#">
+                            Download
+                        </a>
+                    </div>
+                </div>
+            </div>
+        
+        </header>
+        
+        
+        <section class="section">
+        
+            <div class="section_container">
+                <div class="section_menu">
+                    <img class="section_menu_img" src="img/section_menu.png">
+                </div>
+        
+                <div class="vector_img">
+                    <img class="section_group" src="img/section_group.svg">
+                </div>
+            </div>
+            <div class="section_container">
+                <div class="super_charged_main">
+                    <div class="supercharged_container">
+                        <div class="supercharged_container_1">
+                            <text class="section_supercharged">&nbsp;Supercharged&nbsp;</text>
+                        </div>
+                        <div class="supercharged_container_1">
+                            <text class="section_productivity">Productivity</text>
+                        </div>
+                    </div>
+                    <div class="RcDescription_container">
+                        <text class="RcDescription">
+                            Raycast is a blazingly fast, totally extendable launcher. It lets you complete tasks, calculate,
+                            share common
+                            links, and much more.
+                        </text>
+                    </div>
+                </div>
+        
+            </div>
+        
+            <div class="section_container">
+                <div class="dwn_button">
+                    <a href="#" class="dwn_a">
+                        Download
+                    </a>
+                </div>
+            </div>
+        
+            <div class="section_container">
+                <div class="dwn_description">
+                    <div class="v17">v1.70.3</div>
+                    <div class="v17 dwn_m98">|</div>
+                    <div class="v17 dwn_m71">macOS 12+</div>
+                    <div class="v17 dwn_m98">|</div>
+                    <div class="v17 dwn_m71">Install via Homebrew</div>
+                </div>
+            </div>
+        
+            <div class="section_container">
+                <div class="raycast_borders">
+                    <div class="raycast_container">
+                        <div class="rayc_1">
+                            <div class="rayc_1_text"><text class="raycast_merch">Raycast Merch</text></div>
+                            <div class="rayc_1_text"><text class="raycast_description">Exclusive collection of Raycast-branded
+                                    apparel is
+                                    now available.</text></div>
+                        </div>
+                        <div class="rayc_2">
+                            <div class="rayc_getyours_button">
+                                <div class="">
+                                    <text class="get_yours">
+                                        Get yours
+                                    </text>
+                                </div>
+                                <div class="">
+                                    <img src="img/raycast_arrow.svg" class="raycast_arrow">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="section_container">
+                <div class="easy_main">
+                    <div class="it_easy_container">
+                        <text class="easy_font"><text class="its_easy">It’s as easy as </text><text
+                                class="installed">&nbsp;installed</text></text>
+                        <img src="img/Emphasis → SVG.png">
+                    </div>
+        
+                    <div class="easy_description">
+                        <text class="easy_description_text">
+                            Say hello to the Store. A home for Extensions published by our community of Developers using our
+                            API. Find extensions to
+                            the tools you use in your day-to-day.
+                        </text>
+                    </div>
+        
+                </div>
+            </div>
+        
+            <div class="section_container">
+                <div class="background_graduate">
+        
+                    <div class="graduate_left">
+                        <div class="arrow2">
+                            <img src="img/arrow_graduate_background.svg">
+                        </div>
+                        <div class="one_up_container">
+                            <text class="one_up">
+                                One up your productivity
+                            </text>
+                        </div>
+                        <div class="raycast_extensions_container">
+                            <text class="raycast_extensions">On top of the core Raycast Extensions already built in,
+                                you can install Extensions built by Developers from the
+                                community. Everything you’ve asked for, in one place.
+                                Search and browse Extensions for your tools, actions
+                                and more.</text>
+                        </div>
+                        <div class="browse_extensions_container">
+                            <a href="#" class="browse_extensions">Browse Extensions</a>
+                        </div>
+                    </div>
+                    <div class="StoreWindow">
+                        <div class="StoreCommandExample">
+                            <div class="arrow3">
+                                <img src="img/arrow3.svg">
+                            </div>
+                            <div class="SearchBar">
+                                <div class="SearchBar1">
+                                    <text class="SearchBarText">
+                                        Search Store for Extensions
+                                    </text>
+                                </div>
+                            </div>
+                            <div class="SearchBarEnter">
+                                <div class="WIcon">
+                                    <img src="img/WIcon.svg">
+                                </div>
+                                <div class="Spublic">
+                                    <text class="Spublic_text">Public</text>
+                                </div>
+                                <div class="SearchBarInput">
+        
+                                </div>
+                                <div class="WSelector">
+                                    <img src="img/WSelector.svg">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="WFeatured_container">
+                            <text class="WFeatured">Featured</text>
+                        </div>
+        
+        
+                        <div class="list_container list_container_1">
+                            <div class="image_container">
+                                <img class="image_w" src="img/image_w.png">
+                            </div>
+                            <div>
+                                <div class="list_header_container">
+                                    <text class="header_font1">
+                                        Image Modification
+                                    </text>
+                                </div>
+                                <div class="list_description_container">
+                                    <text class="description_font1">
+                                        Apply filters and transformations to various image formats, and convert betwee…
+                                    </text>
+                                </div>
+                            </div>
+                            <div class="market_panel">
+                                <div class="market_panel_image">
+                                    <img class="image_y" src="img/arrow_download.svg">
+                                    <text class="description_font1">9.63k</text>
+                                </div>
+                                <div class="market_panel_image">
+                                    <img class="image_y" src="img/servers.svg">
+                                    <text class="description_font1">11</text>
+                                </div>
+                                <div>
+                                    <img class="image_y" src='img/chrono.svg'>
+                                </div>
+        
+                            </div>
+                        </div>
+                        <div class="list_container list_container_1">
+                            <div class="image_container">
+                                <img class="image_w" src="img/messanger_icon.png">
+                            </div>
+                            <div>
+                                <div class="list_header_container">
+                                    <text class="header_font1">
+                                        Messages
+                                    </text>
+                                </div>
+                                <div class="list_description_container">
+                                    <text class="description_font1">
+                                        Quickly send a message to one of your contacts.
+                                    </text>
+                                </div>
+                            </div>
+                            <div class="market_panel">
+                                <div class="market_panel_image">
+                                    <img class="image_y" src="img/arrow_download.svg">
+                                    <text class="description_font1">3.03k</text>
+                                </div>
+                                <div class="market_panel_image">
+                                    <img class="image_y" src="img/servers.svg">
+                                    <text class="description_font1">1</text>
+                                </div>
+                                <div>
+                                    <img class="image_y1" src='img/list2_im.png'>
+                                </div>
+        
+                            </div>
+                        </div>
+                        <div class="list_container list_container_1">
+                            <div class="image_container">
+                                <img class="image_w" src="img/gif_im.png">
+                            </div>
+                            <div>
+                                <div class="list_header_container">
+                                    <text class="header_font1">
+                                        GIF Search
+                                    </text>
+                                </div>
+                                <div class="list_description_container">
+                                    <text class="description_font1">
+                                        Search the Internet for animated GIFs
+                                    </text>
+                                </div>
+                            </div>
+                            <div class="market_panel">
+                                <div class="market_panel_image">
+                                    <img class="image_y" src="img/arrow_download.svg">
+                                    <text class="description_font1">25.6k</text>
+                                </div>
+                                <div class="market_panel_image">
+                                    <img class="image_y" src="img/servers.svg">
+                                    <text class="description_font1">1</text>
+                                </div>
+                                <div>
+                                    <img class="image_y1" src='img/gif_im_human.png'>
+                                </div>
+        
+                            </div>
+                        </div>
+        
+                        <div class="WFeatured_container">
+                            <text class="WFeatured xz1">Trending</text>
+                        </div>
+        
+                        <div class="list_container list_container_1">
+                            <div class="image_container">
+                                <img class="image_w" src="img/chatgpt_icon.png">
+                            </div>
+                            <div>
+                                <div class="list_header_container">
+                                    <text class="header_font1">
+                                        ChatGPT
+                                    </text>
+                                </div>
+                                <div class="list_description_container">
+                                    <text class="description_font1">
+                                        Interact with OpenAI's ChatGPT directly from your command bar
+                                    </text>
+                                </div>
+                            </div>
+                            <div class="market_panel">
+                                <div class="market_panel_image">
+                                    <img class="image_y" src="img/arrow_download.svg">
+                                    <text class="description_font1">25.6k</text>
+                                </div>
+                                <div class="market_panel_image">
+                                    <img class="image_y" src="img/servers.svg">
+                                    <text class="description_font1">1</text>
+                                </div>
+                                <div>
+                                    <img class="image_y1" src='img/gif_im_human.png'>
+                                </div>
+        
+                            </div>
+                        </div>
+        
+                        <div class="list_container list_container_1">
+                            <div class="image_container">
+                                <img class="image_w" src="img/translator.png">
+                            </div>
+                            <div>
+                                <div class="list_header_container">
+                                    <text class="header_font1">
+                                        Google Translate
+                                    </text>
+                                </div>
+                                <div class="list_description_container">
+                                    <text class="description_font1">
+                                        Simple translation using Google Translate
+                                    </text>
+                                </div>
+                            </div>
+                            <div class="market_panel">
+                                <div class="market_panel_image">
+                                    <img class="image_y" src="img/arrow_download.svg">
+                                    <text class="description_font1">25.6k</text>
+                                </div>
+                                <div class="market_panel_image">
+                                    <img class="image_y" src="img/servers.svg">
+                                    <text class="description_font1">1</text>
+                                </div>
+                                <div>
+                                    <img class="image_y1" src='img/gif_im_human.png'>
+                                </div>
+        
+                            </div>
+                        </div>
+        
+                    </div>
+                </div>
+            </div>
+        
+            <div class="section_container" style="margin-top:2rem; gap: 2rem">
+                <div class="lightweight">
+        
+                    <div class="lightweight_text_container">
+        
+                        <div class="lighting_container">
+                            <img class="lighting" src="img/lighting.svg">
+                        </div>
+        
+                        <div class="lightweight_text">Lightweight and snappy</div>
+        
+                        <div class="lighting_description">
+                            <div class="lighting_description_text">
+                                Designed to be seamless and instant.
+                                View an Extension and hit
+                                <img src="img/code.svg">
+                                to simply install it in milliseconds.
+                            </div>
+                        </div>
+        
+                    </div>
+        
+                    <div class="lighting_image">
+                        <img class="lighting_image" src="img/lighting_image.png">
+                    </div>
+                </div>
+        
+                <div class="collection_ever">
+                    <div class="collection_ever_text">
+                        <div class="lighting_container">
+                            <img src="img/collection_ever_header.svg">
+                        </div>
+                        <div class="lightweight_text">
+                            An evergrowing collection
+                        </div>
+                        <div class="evergrow_description">
+                            <div class="lighting_description_text">
+                                Control Spotify or Apple Music with a hit of a button. Search through Figma,
+                                Notion, and Xcode. Check your internet speed and the weather without
+                                needing the browser, or even play a game of Snake.
+                            </div>
+                        </div>
+        
+                    </div>
+                    <div class="evergrow_main">
+                        <img class="evergrow_main" src="img/evergro_main.png">
+                    </div>
+                </div>
+            </div>
+        
+            <div class="section_container" style="margin-top:3.97rem; margin-bottom: 16.03rem;">
+                <div class="explore_store_container">
+                    <div class="explore_store">
+                        Explore the store
+                        <img src="img/arrow_explore_store.svg">
+                    </div>
+        
+                </div>
+            </div>
+        
+            <div class="section_container">
+                <div class="header_13x">
+                    <div class="put_thePro_header">
+                        <div class="header_13_container">
+                            <div class="header_13_put_the">
+                                Put the
+                            </div>
+                            <div class="light_layout">
+                                <div class="header_13_pro">
+                                    Pro
+                                </div>
+                            </div>
+                        </div>
+                        <div class="header_13_container">
+                            <div class="header_13_put_the">
+                                in
+                            </div>
+                            <div class="light_layout">
+                                <div class="header_13_pro">
+                                    Pro
+                                </div>
+                            </div>
+                            <div class="header_13_put_the">
+                                ductivity
+                            </div>
+                        </div>
+                    </div>
+                    <div class="TurnProTo">
+                        <div class="TurnProTo_text">
+                            Turn Pro to harness the power of AI, make Raycast your own with custom themes,
+                            keep your Macs in sync and more.
+                        </div>
+                    </div>
+                    <div class="Introduction_pro_container">
+                        <div class = "Introduction_pro_container1">
+                            <text class="Introduction_pro">
+                                Introducing Pro
+                            </text>
+                            <div class="arrow5_container">
+                                <img class="arrow5" src="/img/arrow_5.svg">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section_container">
+                <div class="Container_container__pBLEY">
+                    <div class="swift_ui_container">
+                        <img class="swift_ui" src="img/swift_ui_camera.png">
+                        <img class="background_pBLEY" src="img/background_pbley.jpeg">
+                    </div>
+                    <div class = "PuthTheProContainer">
+                        <div class="alwaysOnChat">
+
+                        </div>
+                        <div class="alwaysOnChat">
+                        
+                        </div>
+                        <div class="alwaysOnChat">
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        
+        <footer class="footer">
+        
+        </footer>
+    </div> 
+</body>
+</html>

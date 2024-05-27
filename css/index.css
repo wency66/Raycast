@@ -19,5 +19,5 @@ body {
   width: 100%;
 }
 html{
-   font-size: calc(100vw / 1920);
+   /* font-size: calc(100vw / 1920); */
 }

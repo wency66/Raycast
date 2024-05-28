@@ -57,7 +57,7 @@
     margin-top: 3.69rem;
     justify-content: center;
     align-items: center;
-    width: 80%;
+    width: 90%;
     height: 2.75rem;
     flex-shrink: 0;
     border-radius: 0.5rem;
@@ -110,7 +110,7 @@
   .background_graduate {
     display: inline-flex;
     flex-wrap: wrap;
-    width: 80%;
+    width: 90%;
     padding: 1.78125rem 0rem 1.78125rem 0rem;
     align-items: center;
     flex-shrink: 0;
@@ -125,7 +125,7 @@
   }
   .collection_ever {
     padding: 2rem;
-    width: 80%;
+    width: 90%;
     flex-shrink: 0;
     border-radius: 0.75rem;
     background: rgba(255, 255, 255, 0.1);
@@ -136,7 +136,7 @@
   }
   .lightweight {
     display: flex;
-    width: 80%;
+    width: 90%;
     padding: 1rem;
     flex-direction: column;
     justify-content: center;
@@ -178,7 +178,7 @@
     gap: 1.5rem;
   }
   .lightweight_text_container {
-    width: 80%;
+    width: 90%;
     height: 12.6875rem;
   }
   .background_pBLEY {
@@ -203,6 +203,11 @@
     align-items: center;
     gap: 1.49938rem;
   }
+  .lightweight__header__container {
+    padding-top: 1rem;
+    padding-left: 1rem;
+  }
+  
 }
 
 @media (min-width: 1024px) {
@@ -529,7 +534,7 @@
 }
 .raycast_borders {
   margin-top: 8rem;
-  width: 100%;
+  width: 90%;
   max-width: 50rem;
   max-height: 45rem;
   padding: 0.25rem;
@@ -947,6 +952,7 @@
 }
 
 .evergrow_description {
+  padding-right: 4rem;
   display: flex;
   width: 100%;
   flex-direction: column;
@@ -1095,7 +1101,7 @@
 }
 .swift_ui {
   box-sizing: border-box;
-  width: 80%;
+  width: 90%;
   object-fit: cover;
 }
 .swift_ui_container {
@@ -1126,7 +1132,7 @@
     rgba(255, 255, 255, 0.04) 100%
   );
 }
-.image_ui_container1{
+.image_ui_container1 {
   display: flex;
   justify-content: center;
 }

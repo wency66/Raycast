@@ -1,9 +1,9 @@
-body{
-   background: #05010D;
-   overflow-x: hidden;
-   display: flex;
-   justify-content: center;
-   height: 14174.44px;
+body {
+  background: #05010d;
+  overflow-x: hidden;
+  display: flex;
+  justify-content: center;
+  height: 14174.44px;
 }
 
 body::-webkit-scrollbar {
@@ -14,10 +14,10 @@ body {
   scroll-behavior: smooth;
 }
 
-.content
-{
+.content {
   width: 100%;
 }
-html{
-   /* font-size: calc(100vw / 1920); */
+html {
+  /* font-size: calc(100vw / 1920); */
+  font-size: 16px;
 }

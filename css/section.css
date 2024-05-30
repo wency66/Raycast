@@ -87,10 +87,9 @@
   .rayc_2 {
     display: flex;
     width: 7.2313rem;
-    min-height: 2.00563rem;
-    padding: 0.46563rem 1.00063rem 0.53375rem 1rem;
+    height: 1.5rem;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
     gap: 0.22456rem;
     border-radius: 0.5rem;
     background: linear-gradient(
@@ -108,6 +107,7 @@
     gap: 0.53125rem;
   }
   .background_graduate {
+    overflow: visible;
     display: inline-flex;
     flex-wrap: wrap;
     width: 90%;
@@ -187,7 +187,7 @@
     /* margin-top: 7.75rem; */
     position: absolute;
     border-radius: 0.75rem;
-    width: 100%;
+    width: 90%;
     object-fit: cover;
     flex-shrink: 0;
   }
@@ -207,10 +207,49 @@
     padding-top: 1rem;
     padding-left: 1rem;
   }
-  
+  .put_thePro_header {
+    color: #fff;
+    text-align: center;
+    font-family: Inter;
+    font-size: calc(2.5rem);
+    font-style: normal;
+    font-weight: 600;
+    line-height: 3rem; /* 110% */
+  }
+  .get_yours {
+    font-family: Inter;
+    font-size: 0.6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 0.8rem; /* 115% */
+    background: linear-gradient(93deg, #ff5b37 0.52%, #ab0052 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
 }
 
 @media (min-width: 1024px) {
+  .get_yours {
+    font-family: Inter;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.00625rem; /* 115% */
+    background: linear-gradient(93deg, #ff5b37 0.52%, #ab0052 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .put_thePro_header {
+    color: #fff;
+    text-align: center;
+    font-family: Inter;
+    font-size: calc(3.25rem);
+    font-style: normal;
+    font-weight: 600;
+    line-height: 3.575rem; /* 110% */
+  }
   .header_13x {
     display: flex;
     width: 75.25rem;
@@ -246,6 +285,9 @@
     gap: 1.5rem;
   }
   .StoreWindow {
+    transform: translate(75%, 0%);
+    position: absolute;
+    overflow: visible;
     width: 46.875rem;
     gap: 3.44rem;
     height: 29.6875rem;
@@ -290,6 +332,7 @@
     background: rgba(255, 255, 255, 0.1);
   }
   .background_graduate {
+    overflow: visible;
     display: inline-flex;
     height: 41.25rem;
     width: 76rem;
@@ -548,17 +591,6 @@
   box-shadow: 0px 0px 27px 0px rgba(173, 40, 40, 0.48);
 }
 
-.get_yours {
-  font-family: Inter;
-  font-size: 0.875rem;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 1.00625rem; /* 115% */
-  background: linear-gradient(93deg, #ff5b37 0.52%, #ab0052 100%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
 .rayc_getyours_button {
   gap: 0.22456rem;
   display: flex;
@@ -923,7 +955,7 @@
   flex-shrink: 0;
 }
 
-.lightweight_text {
+.default_header_text {
   margin-top: 1.5rem;
   color: #fff;
   font-family: Inter;
@@ -938,7 +970,7 @@
   justify-content: center;
   flex-shrink: 0;
 }
-.lighting_description_text {
+.default_description_text {
   display: inline-block;
   margin-top: 1rem;
   color: rgba(255, 255, 255, 0.8);
@@ -973,7 +1005,7 @@
   flex-shrink: 0;
 }
 
-.explore_store {
+.default_footer_text {
   display: flex;
   color: #fff;
   font-family: Inter;
@@ -982,6 +1014,9 @@
   font-weight: 500;
   line-height: 1.06rem; /* 106% */
   letter-spacing: 0.01875rem;
+}
+.footer_of_chat{
+  display: flex;
 }
 
 .header_13 {
@@ -996,38 +1031,10 @@
   flex-shrink: 0;
 }
 
-.header_13_put_the {
-  color: #fff;
-  text-align: center;
-  font-family: Inter;
-  font-size: 3.25rem;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 3.575rem; /* 110% */
-}
-
 .header_13_pro {
   color: #ffe2e2;
   text-align: center;
   text-shadow: 1px 0px 10px #ff6363;
-  font-family: Inter;
-  font-size: 3.25rem;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 3.575rem; /* 110% */
-}
-
-.light_layout {
-  width: 6.075rem;
-  height: 3.54313rem;
-  flex-shrink: 0;
-  border-radius: 0.1875rem;
-  background: linear-gradient(
-    180deg,
-    rgba(255, 99, 99, 0.25) 50%,
-    rgba(205, 74, 74, 0.15) 100%
-  );
-  box-shadow: 0px 0px 27px 0px rgba(255, 99, 99, 0.4);
 }
 
 .TurnProTo {
@@ -1039,16 +1046,7 @@
   justify-content: center;
   flex-shrink: 0;
 }
-.TurnProTo_text {
-  color: rgba(255, 255, 255, 0.6);
-  text-align: center;
-  font-family: Inter;
-  font-size: 1.25rem;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 1.75rem; /* 140% */
-  letter-spacing: 0.01875rem;
-}
+
 .Introduction_pro_container {
   display: flex;
   width: 8.5rem;
@@ -1100,7 +1098,9 @@
 }
 .swift_ui {
   box-sizing: border-box;
-  width: 90%;
+  max-width: calc(1440 * 0.4px);
+  width: 70%;
+  position: absolute;
   object-fit: cover;
 }
 .swift_ui_container {
@@ -1132,6 +1132,46 @@
   );
 }
 .image_ui_container1 {
+  height: 100%;
+  width: 50%;
   display: flex;
   justify-content: center;
+}
+
+.alway_on_chat_img_container {
+  width: 100%;
+  z-index: -5;
+  display: flex;
+  justify-content: center;
+}
+.alway_on_chat_img {
+  width: 21rem;
+  height: 10.9375rem;
+  flex-shrink: 0;
+}
+
+.light_layout {
+  flex-shrink: 0;
+  border-radius: 0.1875rem;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 99, 99, 0.25) 50%,
+    rgba(205, 74, 74, 0.15) 100%
+  );
+  box-shadow: 0px 0px 27px 0px rgba(255, 99, 99, 0.4);
+}
+.alway_on_chat_text_container {
+  padding-right: 2.6rem;
+  padding-left: 2.5rem;
+  padding-top: 1.5rem;
+}
+.PutTheProFooter{
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  margin-top: 4rem;
+}
+
+.footer_chat_gpt{
+  display: flex;
 }

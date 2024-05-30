@@ -116,12 +116,6 @@
     flex-shrink: 0;
     border-radius: 0.75rem;
     gap: 3.44rem;
-    background: linear-gradient(
-      100deg,
-      #ffa7a7 2.2%,
-      #a30cb5 29.17%,
-      #00173a 95.31%
-    );
   }
   .collection_ever {
     padding: 2rem;
@@ -195,19 +189,11 @@
     width: 100%;
     object-fit: cover;
   }
-  .header_13x {
-    display: flex;
-    width: 100%;
-    padding: 0rem 2rem 6.00063rem 2rem;
-    flex-direction: column;
-    align-items: center;
-    gap: 1.49938rem;
-  }
   .lightweight__header__container {
     padding-top: 1rem;
     padding-left: 1rem;
   }
-  .put_thePro_header {
+  .default_header_header {
     color: #fff;
     text-align: center;
     font-family: Inter;
@@ -275,9 +261,9 @@
     width: 76rem;
     flex-shrink: 0;
   }
-  .graduate_left {
+  .graduate_description {
     display: flex;
-    width: 30.9375rem;
+    max-width: 30.9375rem;
     padding: 4rem 0.095rem 4rem 4rem;
     flex-direction: column;
     justify-content: center;
@@ -341,12 +327,6 @@
     flex-shrink: 0;
     border-radius: 0.75rem;
     gap: 3.44rem;
-    background: linear-gradient(
-      100deg,
-      #ffa7a7 2.2%,
-      #a30cb5 29.17%,
-      #00173a 95.31%
-    );
   }
   .rayc_1 {
     display: flex;
@@ -1015,7 +995,7 @@
   line-height: 1.06rem; /* 106% */
   letter-spacing: 0.01875rem;
 }
-.footer_of_chat{
+.footer_of_chat {
   display: flex;
 }
 
@@ -1121,7 +1101,8 @@
 }
 
 .alwaysOnChat {
-  width: 24rem;
+  max-width: 24rem;
+  width: 90%;
   height: 23.78938rem;
   flex-shrink: 0;
   border-radius: 0.75rem;
@@ -1165,13 +1146,79 @@
   padding-left: 2.5rem;
   padding-top: 1.5rem;
 }
-.PutTheProFooter{
+.PutTheProFooter {
   width: 100%;
   justify-content: center;
   display: flex;
+  padding-bottom: 16rem;
   margin-top: 4rem;
 }
 
-.footer_chat_gpt{
+.footer_chat_gpt {
   display: flex;
+}
+.ProductivityLevelUp {
+  gap: 1.5rem;
+}
+
+.default_header_header {
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 3.25rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 3.575rem; /* 110% */
+}
+
+.pink_graduate {
+  background: linear-gradient(
+    100deg,
+    #ffa7a7 2.2%,
+    #a30cb5 29.17%,
+    #00173a 95.31%
+  );
+}
+.sky_graduate {
+  padding-right: 4rem;
+  display: flex;
+  justify-content: end;
+  background: linear-gradient(
+    100deg,
+    #dcf9ff 0%,
+    #621dba 48.44%,
+    #04001c 95.31%
+  );
+}
+.browse_extensions_containerx {
+  display: flex;
+  width: 7.35438rem;
+  height: 2.5rem;
+  padding: 0.71875rem 1.23rem 0.78125rem 1.25rem;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 0.5rem;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.imgx {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  right: 50%;
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  max-width: 48.875rem;
+  height: 34.76688rem;
+  flex-shrink: 0;
+}
+
+.code_png {
+  margin-top: 6rem;
+  width: fit-content;
+  height: fit-content;
+  z-index: 1;
 }

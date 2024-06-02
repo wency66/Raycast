@@ -1,182 +1,177 @@
-
-
 .header {
-   position: relative;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   width: 100%;
-   justify-content: space-between;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
 }
 
 .header_container {
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   width: 100%;
-   margin-right: 10.47rem;
-   margin-left: 10.53rem;
-   height: 4.5rem;
-}
-
-
-.header_menu {
-   display: flex;
-   align-items: center;
-   color: rgba(255, 255, 255, 0.60);
-   font-family: Inter;
-   margin-left: 10.05rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-right: 10.47rem;
+  margin-left: 10.53rem;
+  height: 4.5rem;
 }
 
 .header_menu {
-   display: flex;
-   align-items: center;
-   color: rgba(255, 255, 255, 0.60);
-   font-family: Inter;
-   font-size: 0.8125rem;
-   font-style: normal;
-   font-weight: 500;
-   line-height: 1rem; /* 123.077% */
-   letter-spacing: 0.0125rem;
-   margin-left: 1.98rem; 
+  display: flex;
+  align-items: center;
+  color: rgba(255, 255, 255, 0.6);
+  font-family: Inter;
+  margin-left: 10.05rem;
+}
+
+.header_menu {
+  display: flex;
+  align-items: center;
+  color: rgba(255, 255, 255, 0.6);
+  font-family: Inter;
+  font-size: 0.8125rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1rem; /* 123.077% */
+  letter-spacing: 0.0125rem;
+  margin-left: 1.98rem;
 }
 
 .before_mask-group {
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   margin-left: 0.36rem;
-   width: 2.13688rem;
-   height: 0.9375rem;
-   flex-shrink: 0;
-   border-radius: 0.625rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 0.36rem;
+  width: 2.13688rem;
+  height: 0.9375rem;
+  flex-shrink: 0;
+  border-radius: 0.625rem;
 }
 
 .before_mask-group > text {
-   position: absolute;
-   color: rgba(255, 255, 255, 0.60);
-   font-family: Inter;
-   font-size: 0.625rem;
-   font-style: normal;
-   font-weight: 500;
-   line-height: 0.8125rem; /* 130% */
-   letter-spacing: 0.0125rem;
+  position: absolute;
+  color: rgba(255, 255, 255, 0.6);
+  font-family: Inter;
+  font-size: 0.625rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 0.8125rem; /* 130% */
+  letter-spacing: 0.0125rem;
 }
 
 .header_login {
-   display: flex;
-   align-items: center;
-   color: rgba(255, 255, 255, 0.60);
-   margin-left: 9.4rem;
-   font-family: Inter;
-   font-size: 0.8125rem;
-   font-style: normal;
-   font-weight: 500;
-   line-height: 1rem; /* 123.077% */
-   letter-spacing: 0.0125rem;
+  display: flex;
+  align-items: center;
+  color: rgba(255, 255, 255, 0.6);
+  margin-left: 9.4rem;
+  font-family: Inter;
+  font-size: 0.8125rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1rem; /* 123.077% */
+  letter-spacing: 0.0125rem;
 }
 
 .header_download_button {
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   border-radius: 0.375rem;
-   background: rgba(255, 255, 255, 0.05);
-   margin-left: 2.48rem;
-   width: 6rem;
-   height: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.375rem;
+  background: rgba(255, 255, 255, 0.05);
+  margin-left: 2.48rem;
+  width: 6rem;
+  height: 2rem;
 }
 
 .header_download {
-   color: rgba(255, 255, 255, 0.60);
-   font-family: Inter;
-   font-size: 0.8125rem;
-   font-style: normal;
-   font-weight: 500;
-   line-height: 1rem; /* 123.077% */
-   letter-spacing: 0.0125rem;
+  color: rgba(255, 255, 255, 0.6);
+  font-family: Inter;
+  font-size: 0.8125rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1rem; /* 123.077% */
+  letter-spacing: 0.0125rem;
 }
 
 /* Media Queries */
 
 /* Small screens */
 @media (max-width: 650px) {
-   .header_container {
-      justify-content: space-between;
-      margin-right: 0.5rem;
-      margin-left: 0.5rem;
-   }
+  .header_container {
+    justify-content: space-between;
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+  }
 
-   .header_menu {
-      display: none; /* This will hide the menu on small screens */
-   }
+  .header_menu {
+    display: none; /* This will hide the menu on small screens */
+  }
 
-   .before_mask-group {
-      margin-left: 0.1rem;
-      width: 1rem;
-      height: 0.5rem;
-   }
+  .before_mask-group {
+    margin-left: 0.1rem;
+    width: 1rem;
+    height: 0.5rem;
+  }
 
-   .header_login {
-      margin-left: 1.5rem;
-   }
+  .header_login {
+    margin-left: 1.5rem;
+  }
 
-   .header_download_button {
-      margin-left: 0.3rem;
-   }
+  .header_download_button {
+    margin-left: 0.3rem;
+  }
 }
 
 /* Medium screens */
 @media (min-width: 700px) and (max-width: 1024px) {
-   .header_container {
-      justify-content: space-between;
-      margin-right: 2rem;
-      margin-left: 2rem;
-   }
+  .header_container {
+    justify-content: space-between;
+    margin-right: 2rem;
+    margin-left: 2rem;
+  }
 
-   .header_menu {
-      margin-left: 1.5rem;
-   }
+  .header_menu {
+    margin-left: 1.5rem;
+  }
 
-   .before_mask-group {
-      margin-left: 0.3rem;
-      width: 1.7rem;
-      height: 0.7rem;
-   }
+  .before_mask-group {
+    margin-left: 0.3rem;
+    width: 1.7rem;
+    height: 0.7rem;
+  }
 
-   .header_login {
-      margin-left: 3.5rem;
-   }
+  .header_login {
+    margin-left: 3.5rem;
+  }
 
-   .header_download_button {
-      margin-left: 1rem;
-   }
+  .header_download_button {
+    margin-left: 1rem;
+  }
 }
 
 /* Large screens */
 @media (min-width: 1025px) {
-   .header_container {
-      margin-right: 4rem;
-      margin-left: 4rem;
-   }
+  .header_container {
+    margin-right: 4rem;
+    margin-left: 4rem;
+  }
 
-   .header_menu {
-      margin-left: 3rem;
-   }
+  .header_menu {
+    margin-left: 3rem;
+  }
 
-   .before_mask-group {
-      margin-left: 0.5rem;
-      width: 2rem;
-      height: 0.9rem;
-   }
+  .before_mask-group {
+    margin-left: 0.5rem;
+    width: 2rem;
+    height: 0.9rem;
+  }
 
-   .header_login {
-      margin-left: 5.5rem;
-   }
+  .header_login {
+    margin-left: 5.5rem;
+  }
 
-   .header_download_button {
-      margin-left: 1.5rem;
-   }
-
+  .header_download_button {
+    margin-left: 1.5rem;
+  }
 }
-

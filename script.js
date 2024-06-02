@@ -16,31 +16,31 @@ window.addEventListener('resize', adjustContainerHeight);
 
 
 
-// const smoothCoef = 0.16;
-// const smoothScroll = document.querySelector("html");
-// const smoothScrollBar = document.querySelector("html");
+const smoothCoef = 0.16;
+const smoothScroll = document.querySelector("html");
+const smoothScrollBar = document.querySelector("html");
 
-// function onResize(e) {
-//   smoothScrollBar.style.height = smoothScroll.offsetHeight + "px";
-// }
+function onResize(e) {
+  smoothScrollBar.style.height = smoothScroll.offsetHeight + "px";
+}
 
-// window.addEventListener("resize", onResize);
-// onResize();
+window.addEventListener("resize", onResize);
+onResize();
 
-// let prevY = window.scrollY;
-// let curY = window.scrollY;
-// let y = window.scrollY;
-// let dy;
+let prevY = window.scrollY;
+let curY = window.scrollY;
+let y = window.scrollY;
+let dy;
 
-// function loop(now) {
-//   curY = window.scrollY;
-//   dy = curY - prevY;
-//   y = Math.abs(dy) < 1 ? curY : y + dy * smoothCoef;
-//   prevY = y;
-//   smoothScroll.style.transform = `translate3d(0,${-y}px,0)`;
+function loop(now) {
+  curY = window.scrollY;
+  dy = curY - prevY;
+  y = Math.abs(dy) < 1 ? curY : y + dy * smoothCoef;
+  prevY = y;
+  smoothScroll.style.transform = `translate3d(0,${-y}px,0)`;
 
-//   requestAnimationFrame(loop);
-// }
-// requestAnimationFrame(loop);
+  requestAnimationFrame(loop);
+}
+requestAnimationFrame(loop);
 
 
